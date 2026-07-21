@@ -7,7 +7,7 @@ export default function Player({options,searchValue,searching,updateSearch}){
     let id = window.location.pathname.replace("/discover/vid","")
     console.log(id)
 
-    const src= `https://vidsrc.xyz/embed${id}`
+    const src= `https://vidsrc.sbs/embed${id}`
     let [disabled,setState] = useState(true)
     function getSearch(){
         if(searchValue.length>0){
